@@ -19,12 +19,12 @@ export default function Footer() {
             <div className={styles.logoSection}>
               <img 
                 src="/img/landing/favicon-logo.png" 
-                alt="Angany.ai logo"
+                alt="Rayocom logo"
                 className={styles.logoImage}
               />
               <div className={styles.logoText}>
-                <span className={styles.logoBlue}>Angany</span>
-                <span className={styles.logoWhite}>.ai</span>
+                <span className={styles.logoBlue}>Rayocom</span>
+                <span className={styles.logoWhite}>.com</span>
               </div>
             </div>
             <div className={styles.brandDescription}>
@@ -107,7 +107,7 @@ export default function Footer() {
         {/* Bottom section */}
         <div className={styles.bottomSection}>
           <div className={styles.copyright}>
-            2025© Angany.ai, all rights reserved
+            2025© Rayocom, all rights reserved
           </div>
           <div className={styles.legalLinks}>
             <div className={styles.legalLink}>Terms & conditions</div>
