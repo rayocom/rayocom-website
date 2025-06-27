@@ -6,20 +6,20 @@ import type * as OpenApiPlugin from 'docusaurus-plugin-openapi-docs';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Angany.ai',
+  title: 'Rayocom.ai',
   tagline: 'Reimagining telecommunications with AI at its core — speak your vision, let AI build it.',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://angany.ai',
+  url: 'https://Rayocom.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'anganyAI', // Usually your GitHub org/user name.
-  projectName: 'angany-website', // Usually your repo name.
+  organizationName: 'RayocomAI', // Usually your GitHub org/user name.
+  projectName: 'Rayocom-website', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -39,60 +39,60 @@ const config: Config = {
         id: 'api',
         docsPluginId: 'classic',
         config: {
-          // Angany Auth API
-          'angany-auth': {
-            specPath: 'static/openapi/angany-auth.json',
-            outputDir: 'docs/api/angany-auth',
+          // Rayocom Auth API
+          'Rayocom-auth': {
+            specPath: 'static/openapi/Rayocom-auth.json',
+            outputDir: 'docs/api/Rayocom-auth',
             sidebarOptions: {
               groupPathsBy: 'tag'
             },
             version: '1.0.0',
-            label: 'Angany Auth API',
-            baseUrl: '/api/angany-auth',
+            label: 'Rayocom Auth API',
+            baseUrl: '/api/Rayocom-auth',
             versions: {
               '1.0.0': {
-                specPath: 'static/openapi/angany-auth.json',
-                outputDir: 'docs/api/angany-auth',
+                specPath: 'static/openapi/Rayocom-auth.json',
+                outputDir: 'docs/api/Rayocom-auth',
                 label: 'v1.0.0',
-                baseUrl: '/api/angany-auth',
+                baseUrl: '/api/Rayocom-auth',
               },
             },
           } satisfies OpenApiPlugin.Options,
-          // Angany Configuration API  
-          'angany-configuration': {
-            specPath: 'static/openapi/angany-configuration.json',
-            outputDir: 'docs/api/angany-configuration',
+          // Rayocom Configuration API  
+          'Rayocom-configuration': {
+            specPath: 'static/openapi/Rayocom-configuration.json',
+            outputDir: 'docs/api/Rayocom-configuration',
             sidebarOptions: {
               groupPathsBy: 'tag'
             },
             version: '1.0.0',
-            label: 'Angany Configuration API',
-            baseUrl: '/api/angany-configuration',
+            label: 'Rayocom Configuration API',
+            baseUrl: '/api/Rayocom-configuration',
             versions: {
               '1.0.0': {
-                specPath: 'static/openapi/angany-configuration.json',
-                outputDir: 'docs/api/angany-configuration',
+                specPath: 'static/openapi/Rayocom-configuration.json',
+                outputDir: 'docs/api/Rayocom-configuration',
                 label: 'v1.0.0',
-                baseUrl: '/api/angany-configuration',
+                baseUrl: '/api/Rayocom-configuration',
               },
             },
           } satisfies OpenApiPlugin.Options,
-          // Angany App Data API
-          'angany-app-data': {
-            specPath: 'static/openapi/angany-app-data.json',
-            outputDir: 'docs/api/angany-app-data',
+          // Rayocom App Data API
+          'Rayocom-app-data': {
+            specPath: 'static/openapi/Rayocom-app-data.json',
+            outputDir: 'docs/api/Rayocom-app-data',
             sidebarOptions: {
               groupPathsBy: 'tag'
             },
             version: '1.0.0',
-            label: 'Angany App Data API',
-            baseUrl: '/api/angany-app-data',
+            label: 'Rayocom App Data API',
+            baseUrl: '/api/Rayocom-app-data',
             versions: {
               '1.0.0': {
-                specPath: 'static/openapi/angany-app-data.json',
-                outputDir: 'docs/api/angany-app-data',
+                specPath: 'static/openapi/Rayocom-app-data.json',
+                outputDir: 'docs/api/Rayocom-app-data',
                 label: 'v1.0.0',
-                baseUrl: '/api/angany-app-data',
+                baseUrl: '/api/Rayocom-app-data',
               },
             },
           } satisfies OpenApiPlugin.Options,
@@ -111,7 +111,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/anganyAI/angany-website/tree/main/docs/',
+            'https://github.com/RayocomAI/Rayocom-website/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -122,7 +122,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/anganyAI/angany-website/tree/main/blog/',
+            'https://github.com/RayocomAI/Rayocom-website/tree/main/blog/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -137,16 +137,16 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/angany-social-card.jpg',
+    image: 'img/Rayocom-social-card.jpg',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Angany.ai',
+      title: 'Rayocom.ai',
       logo: {
-        alt: 'Angany.ai Logo',
+        alt: 'Rayocom.ai Logo',
         src: 'img/logo/logo-without-text.png',
       },
       items: [
@@ -179,14 +179,14 @@ const config: Config = {
         {
           type: 'html',
           position: 'right',
-          value: '<button class="navbar__button-element" onclick="window.open(\'https://beta.angany.ai\', \'_blank\')">Sign In</button><button class="navbar__signup-element" onclick="window.open(\'https://beta.angany.ai/sign-up\', \'_blank\')">Start for free</button>',
+          value: '<button class="navbar__button-element" onclick="window.open(\'https://beta.Rayocom.ai\', \'_blank\')">Sign In</button><button class="navbar__signup-element" onclick="window.open(\'https://beta.Rayocom.ai/sign-up\', \'_blank\')">Start for free</button>',
         },
       ],
     },
     footer: {
       style: 'dark',
       logo: {
-        alt: 'Angany.ai Logo',
+        alt: 'Rayocom.ai Logo',
         src: 'img/logo/logo-full-white.png',
         width: 160,
       },
@@ -234,12 +234,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/anganyAI',
+              href: 'https://github.com/RayocomAI',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Angany.ai. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Rayocom.ai. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

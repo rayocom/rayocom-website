@@ -15,7 +15,7 @@ export const HERO_CONTENT: HeroContent = {
   subtitle: 'Reimagining telecommunications with AI at its core — speak your vision, let AI build it.',
   ctaButton: {
     text: 'Try demo for free',
-    link: 'https://beta.angany.ai/sign-up',
+    link: 'https://beta.Rayocom.ai/sign-up',
     iconSrc: '/img/landing/button-arrow-icon.svg'
   }
 };

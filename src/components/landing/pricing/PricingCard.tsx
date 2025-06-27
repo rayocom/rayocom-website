@@ -198,7 +198,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({
       }}>
         {(buttonText === 'Get started' || buttonText === 'Start free trial') ? (
           <a 
-            href="https://beta.angany.ai/sign-up" 
+            href="https://beta.Rayocom.ai/sign-up" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{

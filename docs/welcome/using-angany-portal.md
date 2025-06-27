@@ -1,32 +1,32 @@
 ---
-title: Using Angany Portal
+title: Using Rayocom Portal
 sidebar_position: 2
 ---
 
-# Using Angany Portal
+# Using Rayocom Portal
 
-Welcome to the Angany Portal documentation! This guide will help you understand and make the most of the Angany AI-driven telecommunications platform.
+Welcome to the Rayocom Portal documentation! This guide will help you understand and make the most of the Rayocom AI-driven telecommunications platform.
 
-> **Note:** Angany Portal is a SaaS platform. No installation is required—access is provided by your organization administrator.
+> **Note:** Rayocom Portal is a SaaS platform. No installation is required—access is provided by your organization administrator.
 
 *** SCREENSHOT OF PORTAL DASHBOARD HERE ***
 
 ## Documentation Sections
 
-- [Introduction](./angany-portal/introduction.md)
-- [Authentication & User Management](./angany-portal/authentication.md)
-- [Organizations](./angany-portal/organizations.md)
-- [Telephony Resources](./angany-portal/telephony.md)
-- [AI Components](./angany-portal/ai-components.md)
-- [Conversations & Scenarios](./angany-portal/conversations.md)
-- [Apps & Integrations](./angany-portal/integrations.md)
-- [Billing](./angany-portal/billing.md)
-- [Debugging & Monitoring](./angany-portal/debugging.md)
-- [Settings](./angany-portal/settings.md)
-- [Error Handling](./angany-portal/error-handling.md)
-- [Best Practices & Tips](./angany-portal/best-practices.md)
-- [FAQ / Help Center](./angany-portal/faq.md)
+- [Introduction](./Rayocom-portal/introduction.md)
+- [Authentication & User Management](./Rayocom-portal/authentication.md)
+- [Organizations](./Rayocom-portal/organizations.md)
+- [Telephony Resources](./Rayocom-portal/telephony.md)
+- [AI Components](./Rayocom-portal/ai-components.md)
+- [Conversations & Scenarios](./Rayocom-portal/conversations.md)
+- [Apps & Integrations](./Rayocom-portal/integrations.md)
+- [Billing](./Rayocom-portal/billing.md)
+- [Debugging & Monitoring](./Rayocom-portal/debugging.md)
+- [Settings](./Rayocom-portal/settings.md)
+- [Error Handling](./Rayocom-portal/error-handling.md)
+- [Best Practices & Tips](./Rayocom-portal/best-practices.md)
+- [FAQ / Help Center](./Rayocom-portal/faq.md)
 
 ---
 
-> **Tip:** Use the sidebar or the links above to navigate to the section you need. Each section contains detailed guides, screenshots, and best practices for using the Angany Portal. 
+> **Tip:** Use the sidebar or the links above to navigate to the section you need. Each section contains detailed guides, screenshots, and best practices for using the Rayocom Portal. 

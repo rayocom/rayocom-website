@@ -4,7 +4,7 @@ const sidebar: SidebarsConfig = {
   apisidebar: [
     {
       type: "doc",
-      id: "api/angany-app-data/angany-app-data",
+      id: "api/Rayocom-app-data/Rayocom-app-data",
     },
     {
       type: "category",
@@ -12,13 +12,13 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "api/angany-app-data/list-call-details-api-v-1-dashboard-call-details-get",
+          id: "api/Rayocom-app-data/list-call-details-api-v-1-dashboard-call-details-get",
           label: "List Call Details",
           className: "api-method get",
         },
         {
           type: "doc",
-          id: "api/angany-app-data/get-dashboard-summary-api-v-1-dashboard-summary-get",
+          id: "api/Rayocom-app-data/get-dashboard-summary-api-v-1-dashboard-summary-get",
           label: "Get Dashboard Summary",
           className: "api-method get",
         },
@@ -30,7 +30,7 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "api/angany-app-data/list-logs-api-v-1-calls-call-id-logs-get",
+          id: "api/Rayocom-app-data/list-logs-api-v-1-calls-call-id-logs-get",
           label: "List Logs",
           className: "api-method get",
         },
@@ -42,7 +42,7 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "api/angany-app-data/list-calls-api-v-1-calls-call-ids-get",
+          id: "api/Rayocom-app-data/list-calls-api-v-1-calls-call-ids-get",
           label: "List Calls",
           className: "api-method get",
         },
@@ -54,7 +54,7 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "api/angany-app-data/list-transcriptions-api-v-1-calls-call-id-transcriptions-get",
+          id: "api/Rayocom-app-data/list-transcriptions-api-v-1-calls-call-id-transcriptions-get",
           label: "List Transcriptions",
           className: "api-method get",
         },
@@ -66,13 +66,13 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
-          id: "api/angany-app-data/list-performance-events-api-v-1-calls-call-id-performance-events-get",
+          id: "api/Rayocom-app-data/list-performance-events-api-v-1-calls-call-id-performance-events-get",
           label: "List Performance Events",
           className: "api-method get",
         },
         {
           type: "doc",
-          id: "api/angany-app-data/calculate-component-times-api-v-1-calls-call-id-performance-events-calculation-get",
+          id: "api/Rayocom-app-data/calculate-component-times-api-v-1-calls-call-id-performance-events-calculation-get",
           label: "Calculate Component Times",
           className: "api-method get",
         },

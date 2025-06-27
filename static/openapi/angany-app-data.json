@@ -1,12 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "angany-app-data",
+    "title": "Rayocom-app-data",
     "version": "0.1.0",
     "description": "Application data and analytics services",
     "x-logo": {
       "url": "/img/logo/logo-without-text.png",
-      "altText": "Angany.ai Logo"
+      "altText": "Rayocom.ai Logo"
     }
   },
   "paths": {
@@ -287,10 +287,10 @@
                   "type": "null"
                 }
               ],
-              "description": "The application name to filter logs for (e.g., angany-voice-ai). Corresponds to the 'application' label in Loki.",
+              "description": "The application name to filter logs for (e.g., Rayocom-voice-ai). Corresponds to the 'application' label in Loki.",
               "title": "Application"
             },
-            "description": "The application name to filter logs for (e.g., angany-voice-ai). Corresponds to the 'application' label in Loki."
+            "description": "The application name to filter logs for (e.g., Rayocom-voice-ai). Corresponds to the 'application' label in Loki."
           }
         ],
         "responses": {
@@ -964,7 +964,7 @@
             ],
             "title": "Environment"
           },
-          "angany_tenant_id": {
+          "Rayocom_tenant_id": {
             "anyOf": [
               {
                 "type": "string",
@@ -974,9 +974,9 @@
                 "type": "null"
               }
             ],
-            "title": "Angany Tenant Id"
+            "title": "Rayocom Tenant Id"
           },
-          "angany_call_id": {
+          "Rayocom_call_id": {
             "anyOf": [
               {
                 "type": "string"
@@ -985,9 +985,9 @@
                 "type": "null"
               }
             ],
-            "title": "Angany Call Id"
+            "title": "Rayocom Call Id"
           },
-          "angany_protocol_id": {
+          "Rayocom_protocol_id": {
             "anyOf": [
               {
                 "type": "string"
@@ -996,9 +996,9 @@
                 "type": "null"
               }
             ],
-            "title": "Angany Protocol Id"
+            "title": "Rayocom Protocol Id"
           },
-          "angany_request_id": {
+          "Rayocom_request_id": {
             "anyOf": [
               {
                 "type": "string"
@@ -1007,9 +1007,9 @@
                 "type": "null"
               }
             ],
-            "title": "Angany Request Id"
+            "title": "Rayocom Request Id"
           },
-          "angany_user_id": {
+          "Rayocom_user_id": {
             "anyOf": [
               {
                 "type": "string"
@@ -1018,9 +1018,9 @@
                 "type": "null"
               }
             ],
-            "title": "Angany User Id"
+            "title": "Rayocom User Id"
           },
-          "angany_data_sensitivity": {
+          "Rayocom_data_sensitivity": {
             "anyOf": [
               {
                 "type": "string"
@@ -1029,7 +1029,7 @@
                 "type": "null"
               }
             ],
-            "title": "Angany Data Sensitivity",
+            "title": "Rayocom Data Sensitivity",
             "default": "INTERNAL"
           },
           "logger_name": {
@@ -1186,7 +1186,7 @@
           "message"
         ],
         "title": "LogEntry",
-        "description": "Represents a single log entry, aligned with the Angany Logging Standard.\nThe fields here are expected to be top-level in the JSON log from Loki."
+        "description": "Represents a single log entry, aligned with the Rayocom Logging Standard.\nThe fields here are expected to be top-level in the JSON log from Loki."
       },
       "PaginatedCallIdResponse": {
         "properties": {

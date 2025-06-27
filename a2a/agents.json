@@ -1,13 +1,13 @@
 {
-  "name": "Angany AI Platform",
+  "name": "Rayocom AI Platform",
   "description": "Enterprise AI platform providing telecommunications, configuration management, and application data services",
-  "url": "https://dev.angany.ai/a2a",
+  "url": "https://dev.Rayocom.ai/a2a",
   "provider": {
-    "organization": "Angany",
-    "url": "https://angany.ai"
+    "organization": "Rayocom",
+    "url": "https://Rayocom.ai"
   },
   "version": "1.0.0",
-  "documentationUrl": "https://docs.angany.ai/a2a",
+  "documentationUrl": "https://docs.Rayocom.ai/a2a",
   "capabilities": {
     "streaming": true,
     "pushNotifications": true,

@@ -17,30 +17,30 @@ const envConfig = apiConfig[environment] || {};
 // Configure your API endpoints here
 const APIs = [
   {
-    name: 'angany-auth',
+    name: 'Rayocom-auth',
     // Use config file first, then environment variables, then fallback
-    url: envConfig.ANGANY_AUTH_API_URL 
-      ? `${envConfig.ANGANY_AUTH_API_URL}/openapi.json`
-      : process.env.ANGANY_AUTH_API_URL 
-        ? `${process.env.ANGANY_AUTH_API_URL}/openapi.json`
+    url: envConfig.Rayocom_AUTH_API_URL 
+      ? `${envConfig.Rayocom_AUTH_API_URL}/openapi.json`
+      : process.env.Rayocom_AUTH_API_URL 
+        ? `${process.env.Rayocom_AUTH_API_URL}/openapi.json`
         : 'http://localhost:8001/openapi.json', // fallback for local development
     description: 'Authentication and authorization services powered by Ory Kratos and Hydra'
   },
   {
-    name: 'angany-configuration',
-    url: envConfig.ANGANY_CONFIG_API_URL 
-      ? `${envConfig.ANGANY_CONFIG_API_URL}/openapi.json`
-      : process.env.ANGANY_CONFIG_API_URL 
-        ? `${process.env.ANGANY_CONFIG_API_URL}/openapi.json`
+    name: 'Rayocom-configuration',
+    url: envConfig.Rayocom_CONFIG_API_URL 
+      ? `${envConfig.Rayocom_CONFIG_API_URL}/openapi.json`
+      : process.env.Rayocom_CONFIG_API_URL 
+        ? `${process.env.Rayocom_CONFIG_API_URL}/openapi.json`
         : 'http://localhost:8000/openapi.json', // fallback for local development
     description: 'Configuration management for organizations, resources, and telecom settings'
   },
   {
-    name: 'angany-app-data',
-    url: envConfig.ANGANY_APP_DATA_API_URL 
-      ? `${envConfig.ANGANY_APP_DATA_API_URL}/openapi.json`
-      : process.env.ANGANY_APP_DATA_API_URL 
-        ? `${process.env.ANGANY_APP_DATA_API_URL}/openapi.json`
+    name: 'Rayocom-app-data',
+    url: envConfig.Rayocom_APP_DATA_API_URL 
+      ? `${envConfig.Rayocom_APP_DATA_API_URL}/openapi.json`
+      : process.env.Rayocom_APP_DATA_API_URL 
+        ? `${process.env.Rayocom_APP_DATA_API_URL}/openapi.json`
         : 'http://localhost:8002/openapi.json', // fallback for local development
     description: 'Application data and analytics services'
   },
@@ -72,7 +72,7 @@ async function downloadOpenAPISpec(api) {
             parsed.info.description = api.description;
             parsed.info['x-logo'] = {
               url: '/img/logo/logo-without-text.png',
-              altText: 'Angany.ai Logo'
+              altText: 'Rayocom.ai Logo'
             };
           }
           
@@ -111,7 +111,7 @@ function createPlaceholderSpec(api, outputPath) {
       description: `${api.description}\n\n**Note: This is a placeholder specification. The actual API is not currently available.**`,
       'x-logo': {
         url: '/img/logo/logo-without-text.png',
-        altText: 'Angany.ai Logo'
+        altText: 'Rayocom.ai Logo'
       }
     },
     servers: [

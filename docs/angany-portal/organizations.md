@@ -4,7 +4,7 @@ title: Organizations
 
 # Organizations
 
-Organizations in Angany Portal allow you to group users, resources, and settings under a single entity. This is useful for companies with multiple departments, subsidiaries, or clients.
+Organizations in Rayocom Portal allow you to group users, resources, and settings under a single entity. This is useful for companies with multiple departments, subsidiaries, or clients.
 
 ## Managing Organizations
 - View all organizations you have access to in the **Organizations** section.

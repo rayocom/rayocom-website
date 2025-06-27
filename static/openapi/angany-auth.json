@@ -1,12 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Angany Auth Service",
+    "title": "Rayocom Auth Service",
     "description": "Authentication and authorization services powered by Ory Kratos and Hydra",
     "version": "0.1.0",
     "x-logo": {
       "url": "/img/logo/logo-without-text.png",
-      "altText": "Angany.ai Logo"
+      "altText": "Rayocom.ai Logo"
     }
   },
   "paths": {

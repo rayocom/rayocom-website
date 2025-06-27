@@ -21,8 +21,8 @@ Built with [Docusaurus](https://docusaurus.io/) and featuring automatic OpenAPI 
 
 ```bash
 # Clone the repository
-git clone https://github.com/anganyAI/angany-website.git
-cd angany-website
+git clone https://github.com/RayocomAI/Rayocom-website.git
+cd Rayocom-website
 
 # Install dependencies
 pnpm install
@@ -63,7 +63,7 @@ pnpm clean-api-docs
 Removes all previously generated API documentation directories to ensure fresh generation.
 
 **What it does:**
-- Deletes `docs/api/angany-auth/`, `docs/api/angany-configuration/`, and `docs/api/angany-app-data/` directories
+- Deletes `docs/api/Rayocom-auth/`, `docs/api/Rayocom-configuration/`, and `docs/api/Rayocom-app-data/` directories
 - Ensures no stale or conflicting documentation files remain
 - Prepares for clean regeneration of API docs
 
@@ -111,23 +111,23 @@ The website supports multiple environments through `api-config.js`:
 module.exports = {
   // Production API URLs
   production: {
-    ANGANY_AUTH_API_URL: 'https://auth.angany.ai',
-    ANGANY_CONFIG_API_URL: 'https://config.angany.ai',
-    ANGANY_APP_DATA_API_URL: 'https://data.angany.ai'
+    Rayocom_AUTH_API_URL: 'https://auth.Rayocom.ai',
+    Rayocom_CONFIG_API_URL: 'https://config.Rayocom.ai',
+    Rayocom_APP_DATA_API_URL: 'https://data.Rayocom.ai'
   },
   
   // Development API URLs
   development: {
-    ANGANY_AUTH_API_URL: 'https://dev.angany.ai/docs/auth',
-    ANGANY_CONFIG_API_URL: 'https://dev.angany.ai/docs/config',
-    ANGANY_APP_DATA_API_URL: 'https://dev.angany.ai/docs/app-data'
+    Rayocom_AUTH_API_URL: 'https://dev.Rayocom.ai/docs/auth',
+    Rayocom_CONFIG_API_URL: 'https://dev.Rayocom.ai/docs/config',
+    Rayocom_APP_DATA_API_URL: 'https://dev.Rayocom.ai/docs/app-data'
   },
   
   // Staging API URLs  
   staging: {
-    ANGANY_AUTH_API_URL: 'https://auth-staging.angany.ai',
-    ANGANY_CONFIG_API_URL: 'https://config-staging.angany.ai',
-    ANGANY_APP_DATA_API_URL: 'https://data-staging.angany.ai'
+    Rayocom_AUTH_API_URL: 'https://auth-staging.Rayocom.ai',
+    Rayocom_CONFIG_API_URL: 'https://config-staging.Rayocom.ai',
+    Rayocom_APP_DATA_API_URL: 'https://data-staging.Rayocom.ai'
   }
 };
 ```
@@ -157,18 +157,18 @@ NODE_ENV=staging pnpm generate-api-docs
 ## 📁 Project Structure
 
 ```
-angany-website/
+Rayocom-website/
 ├── docs/                   # Documentation pages
 │   ├── api/               # Generated API documentation
-│   │   ├── angany-auth/
-│   │   ├── angany-configuration/
-│   │   └── angany-app-data/
+│   │   ├── Rayocom-auth/
+│   │   ├── Rayocom-configuration/
+│   │   └── Rayocom-app-data/
 │   └── ...                # Manual documentation
 ├── static/
 │   ├── openapi/           # Downloaded OpenAPI specs
-│   │   ├── angany-auth.json
-│   │   ├── angany-configuration.json
-│   │   └── angany-app-data.json
+│   │   ├── Rayocom-auth.json
+│   │   ├── Rayocom-configuration.json
+│   │   └── Rayocom-app-data.json
 │   └── img/               # Images and assets
 ├── src/                   # React components and pages
 ├── scripts/
@@ -230,10 +230,10 @@ pnpm build
 
 ## 📄 License
 
-Copyright © 2025 AnganyAI. All rights reserved.
+Copyright © 2025 RayocomAI. All rights reserved.
 
 ## 🔗 Links
 
-- [Angany.ai Website](https://angany.ai)
+- [Rayocom.ai Website](https://Rayocom.ai)
 - [Docusaurus Documentation](https://docusaurus.io/)
 - [OpenAPI Plugin Documentation](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs)

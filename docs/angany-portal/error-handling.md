@@ -4,7 +4,7 @@ title: Error Handling
 
 # Error Handling
 
-The Angany Portal provides clear error messages and dedicated error pages to help you resolve issues quickly.
+The Rayocom Portal provides clear error messages and dedicated error pages to help you resolve issues quickly.
 
 ## Error Pages
 - Common errors (e.g., 401 Unauthorized, 404 Not Found, 500 Internal Server Error) are displayed with helpful messages and guidance.

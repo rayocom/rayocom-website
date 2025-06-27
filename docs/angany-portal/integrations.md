@@ -4,7 +4,7 @@ title: Apps & Integrations
 
 # Apps & Integrations
 
-The Apps & Integrations section allows you to connect the Angany Portal with external applications and services, enabling seamless workflows and data exchange.
+The Apps & Integrations section allows you to connect the Rayocom Portal with external applications and services, enabling seamless workflows and data exchange.
 
 ## Managing Integrations
 - View all available integrations in the **Integrations** section.
