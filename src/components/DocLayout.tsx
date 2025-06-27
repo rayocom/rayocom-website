@@ -72,8 +72,8 @@ function BackgroundEffects() {
 }
 
 export default function DocLayout({ children, title, description, sidebar }: DocLayoutProps): ReactNode {
-  const pageTitle = `${title} | Angany.ai Documentation`;
-  const pageDescription = description || "Angany.ai platform documentation and guides";
+  const pageTitle = `${title} | Rayocom  Ai Documentation`;
+  const pageDescription = description || "Rayocom  Ai platform documentation and guides";
 
   return (
     <div className={styles.pageContainer}>
@@ -100,7 +100,7 @@ export default function DocLayout({ children, title, description, sidebar }: Doc
             <span className={styles.highlightText}>Documentation</span>
           </h1>
           <p className={styles.pageSubtitle}>
-            Learn how to integrate and use the Angany.ai platform
+            Learn how to integrate and use the Rayocom  Ai platform
           </p>
         </div>
       </section>

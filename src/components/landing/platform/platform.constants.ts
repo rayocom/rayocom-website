@@ -5,7 +5,7 @@ export const PLATFORM_CONTENT: PlatformContent = {
   highlightedText: "Voice AI platform",
   description: "From concept to production in minutes. Our AI-powered platform transforms your voice application ideas into fully functional systems with just a few simple steps.",
   buttonText: "Try full demo",
-  buttonUrl: "https://beta.angany.ai/sign-up",
+  buttonUrl: "https://beta.ai.rayocom.ir/sign-up",
   imageUrl: "/img/platform-main-image.png",
   imageAlt: "Platform main image"
 }; 

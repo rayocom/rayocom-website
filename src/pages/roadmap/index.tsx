@@ -66,7 +66,7 @@ function BackgroundEffects() {
 }
 
 export default function Roadmap(): ReactNode {
-  const pageTitle = "Roadmap | Angany.ai";
+  const pageTitle = "Roadmap | Rayocom  Ai";
   const pageDescription = "Our Journey to Redefine Telecommunications";
 
   return (
@@ -94,7 +94,7 @@ export default function Roadmap(): ReactNode {
             Our Journey to <span className={styles.highlightText}>Redefine</span> Telecommunications
           </h1>
           <p className={styles.pageSubtitle}>
-            Angany.ai is being developed with a clear vision and methodical approach. Here's our 
+            Rayocom  Ai is being developed with a clear vision and methodical approach. Here's our 
             development roadmap, showing where we've been and where we're headed.
           </p>
         </div>
@@ -238,7 +238,7 @@ export default function Roadmap(): ReactNode {
               <li><strong>Industry Advisors:</strong> Share your expertise to shape our roadmap</li>
             </ul>
             <div className={styles.joinCta}>
-              <a href="https://beta.angany.ai/sign-up" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
+              <a href="https://beta.Rayocom  Ai/sign-up" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
                 Get Involved
               </a>
             </div>

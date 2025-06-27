@@ -66,8 +66,8 @@ function BackgroundEffects() {
 }
 
 export default function Features(): ReactNode {
-  const pageTitle = "Features | Angany.ai";
-  const pageDescription = "How Angany.ai Works - AI at the Core of Telecommunications";
+  const pageTitle = "Features | Rayocom  Ai";
+  const pageDescription = "How Rayocom  Ai Works - AI at the Core of Telecommunications";
 
   return (
     <div className={styles.pageContainer}>
@@ -92,7 +92,7 @@ export default function Features(): ReactNode {
         {/* Hero Content */}
         <div className={styles.heroContent}>
           <h1 className={styles.pageHeader}>
-            How <span className={styles.highlightText}>Angany.ai</span> Works
+            How <span className={styles.highlightText}>Rayocom  Ai</span> Works
           </h1>
           <p className={styles.pageSubtitle}>
             AI at the Core of Telecommunications
@@ -105,7 +105,7 @@ export default function Features(): ReactNode {
         <div className={styles.contentWrapper}>
           <div className={styles.introSection}>
             <p className={styles.intro}>
-              Angany.ai represents a fundamental shift in telecommunications architecture. By placing 
+              Rayocom  Ai represents a fundamental shift in telecommunications architecture. By placing 
               AI at the core rather than as a peripheral feature, we've created a system with unprecedented 
               flexibility and intelligence.
             </p>
@@ -115,7 +115,7 @@ export default function Features(): ReactNode {
             <h2 className={styles.sectionTitle}>Technical Architecture</h2>
             <div className={styles.architectureCard}>
               <p className={styles.cardText}>
-                At the heart of Angany.ai is an agent based on Vocode technology. When a voice call arrives:
+                At the heart of Rayocom  Ai is an agent based on Vocode technology. When a voice call arrives:
               </p>
               <ol className={styles.processList}>
                 <li>The system creates a conversation session</li>
@@ -178,7 +178,7 @@ export default function Features(): ReactNode {
               <div className={styles.capabilityContent}>
                 <h4 className={styles.capabilitySubtitle}>How it works</h4>
                 <p className={styles.capabilityText}>
-                  Angany.ai connects to your existing business systems through various protocols (APIs, webhooks, 
+                  Rayocom  Ai connects to your existing business systems through various protocols (APIs, webhooks, 
                   WebSockets), allowing the AI to access and manipulate data across your organization.
                 </p>
                 <h4 className={styles.capabilitySubtitle}>Example</h4>
@@ -210,7 +210,7 @@ export default function Features(): ReactNode {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Technology Stack</h2>
             <div className={styles.techStackCard}>
-              <p className={styles.cardText}>Angany.ai leverages proven technologies including:</p>
+              <p className={styles.cardText}>Rayocom  Ai leverages proven technologies including:</p>
               <ul className={styles.techList}>
                 <li><strong>Kamailio:</strong> For robust SIP routing</li>
                 <li><strong>Asterisk:</strong> For telecommunication functionality</li>
@@ -228,7 +228,7 @@ export default function Features(): ReactNode {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Security and Privacy</h2>
             <div className={styles.securityCard}>
-              <p className={styles.cardText}>Security is foundational to Angany.ai:</p>
+              <p className={styles.cardText}>Security is foundational to Rayocom  Ai:</p>
               <ul className={styles.securityList}>
                 <li><strong>Data Storage Choice:</strong> Businesses control where their data is stored</li>
                 <li><strong>Encrypted Communications:</strong> Using technologies like WebRTC with SRTP or SIP TLS</li>

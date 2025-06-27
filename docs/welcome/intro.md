@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Introduction to Angany.ai
+# Introduction to Rayocom  Ai
 
-Welcome to Angany.ai - an AI-powered voice agent platform that enhances your telecommunications infrastructure. Our platform enables intelligent voice interactions, streamlines call routing, and improves customer experiences.
+Welcome to Rayocom  Ai - an AI-powered voice agent platform that enhances your telecommunications infrastructure. Our platform enables intelligent voice interactions, streamlines call routing, and improves customer experiences.
 
 ## Key Features
 
@@ -17,7 +17,7 @@ Welcome to Angany.ai - an AI-powered voice agent platform that enhances your tel
 ## Getting Started
 
 1. **Contact us for a demo** - Reach out to our team to schedule a demonstration of our platform.
-2. **Plan your integration** - Our experts will help you plan how to integrate Angany.ai with your existing systems.
+2. **Plan your integration** - Our experts will help you plan how to integrate Rayocom  Ai with your existing systems.
 3. **Follow the documentation** - Use our guides to understand the platform's capabilities.
 4. **Train your voice agents** - Customize and train voice agents for your specific business needs.
 5. **Monitor performance** - Use analytics to continuously improve your voice communication systems.
@@ -33,5 +33,5 @@ Our documentation is organized into the following sections:
 - **Best Practices** - Recommendations for optimal use of the platform.
 
 :::note
-Angany.ai is in active development. This documentation will be updated regularly. Your feedback is welcome as we continue to improve both the platform and its documentation.
+Rayocom  Ai is in active development. This documentation will be updated regularly. Your feedback is welcome as we continue to improve both the platform and its documentation.
 :::

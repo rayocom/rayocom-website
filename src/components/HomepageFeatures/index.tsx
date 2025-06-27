@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: <img src="/img/talk.jpeg" alt="Talk icon" className={styles.featureImage} />,
     description: (
       <>
-        Forget complex configuration interfaces. With Angany.ai, simply explain what you want in conversational language, and the AI handles the technical implementation.
+        Forget complex configuration interfaces. With Rayocom  Ai, simply explain what you want in conversational language, and the AI handles the technical implementation.
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     icon: <img src="/img/plug.jpeg" alt="Plug icon" className={styles.featureImage} />,
     description: (
       <>
-        Angany.ai connects effortlessly with your existing business systems, enhancing them with AI capabilities rather than replacing them.
+        Rayocom  Ai connects effortlessly with your existing business systems, enhancing them with AI capabilities rather than replacing them.
       </>
     ),
   },

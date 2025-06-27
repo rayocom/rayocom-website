@@ -70,8 +70,8 @@ function BackgroundEffects() {
 }
 
 export default function Contact(): ReactNode {
-  const pageTitle = "Contact Us | Angany.ai";
-  const pageDescription = "Get in touch with the Angany.ai team";
+  const pageTitle = "Contact Us | Rayocom  Ai";
+  const pageDescription = "Get in touch with the Rayocom  Ai team";
 
   return (
     <div className={styles.pageContainer}>
@@ -99,7 +99,7 @@ export default function Contact(): ReactNode {
             <span className={styles.highlightText}>Contact</span> Us
           </h1>
           <p className={styles.pageSubtitle}>
-            Get in touch with the Angany.ai team
+            Get in touch with the Rayocom  Ai team
           </p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function Contact(): ReactNode {
             <div className={styles.contactBox}>
               <h2 className={styles.sectionTitle}>Join Our Journey</h2>
               <p className={styles.contactIntro}>
-                Be among the first to experience Angany.ai. Join our exclusive list to receive development 
+                Be among the first to experience Rayocom  Ai. Join our exclusive list to receive development 
                 updates, early access opportunities, and insights into the future of AI-powered telecommunications.
               </p>
               
@@ -124,7 +124,7 @@ export default function Contact(): ReactNode {
                 const message = document.getElementById('message') as HTMLTextAreaElement;
                 
                 if (email && email.value) {
-                  const subject = encodeURIComponent('Contact from Angany.ai Website');
+                  const subject = encodeURIComponent('Contact from Rayocom  Ai Website');
                   const body = encodeURIComponent(
                     `Name: ${name ? name.value : 'Not provided'}\n` +
                     `Email: ${email.value}\n` +
@@ -170,7 +170,7 @@ export default function Contact(): ReactNode {
                 <div className={styles.formGroup}>
                   <div className={styles.checkboxGroup}>
                     <input type="checkbox" id="consent" className={styles.checkbox} required />
-                    <label htmlFor="consent" className={styles.checkboxLabel}>I agree to receive updates about Angany.ai*</label>
+                    <label htmlFor="consent" className={styles.checkboxLabel}>I agree to receive updates about Rayocom  Ai*</label>
                   </div>
                 </div>
                 
@@ -194,7 +194,7 @@ export default function Contact(): ReactNode {
               
               <div className={styles.contactMethod}>
                 <h3 className={styles.methodTitle}>Location</h3>
-                <p className={styles.methodText}>Angany.ai is based in Quebec, Canada.</p>
+                <p className={styles.methodText}>Rayocom  Ai is based in Quebec, Canada.</p>
               </div>
               
               <div className={styles.contactMethod}>

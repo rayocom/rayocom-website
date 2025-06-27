@@ -70,7 +70,7 @@ function BackgroundEffects() {
 }
 
 export default function Vision(): ReactNode {
-  const pageTitle = "Our Vision | Angany.ai";
+  const pageTitle = "Our Vision | Rayocom  Ai";
   const pageDescription = "Reimagining Telecommunications from the Ground Up";
 
   return (
@@ -99,7 +99,7 @@ export default function Vision(): ReactNode {
             Reimagining <span className={styles.highlightText}>Telecommunications</span> from the Ground Up
           </h1>
           <p className={styles.pageSubtitle}>
-            At Angany.ai, we're not just improving existing telecommunications systems—we're fundamentally 
+            At Rayocom  Ai, we're not just improving existing telecommunications systems—we're fundamentally 
             reimagining them for the AI era.
           </p>
         </div>
@@ -125,7 +125,7 @@ export default function Vision(): ReactNode {
               <div className={styles.card}>
                 <h2 className={styles.cardTitle}>Mission Statement</h2>
                 <p className={styles.cardText}>
-                  Angany.ai's mission is to provide enterprises with a telecommunications solution that adapts 
+                  Rayocom  Ai's mission is to provide enterprises with a telecommunications solution that adapts 
                   precisely to their needs through AI and natural language. We're building a future where 
                   communication systems are infinitely flexible, immediately responsive, and genuinely intelligent.
                 </p>
@@ -151,9 +151,9 @@ export default function Vision(): ReactNode {
                 </ul>
               </div>
 
-              {/* Angany.ai Approach */}
+              {/* Rayocom  Ai Approach */}
               <div className={styles.anganyCard}>
-                <h3 className={styles.approachTitle}>Angany.ai Approach</h3>
+                <h3 className={styles.approachTitle}>Rayocom  Ai Approach</h3>
                 <ul className={styles.approachList}>
                   <li>AI-driven functionality that evolves with your needs</li>
                   <li>Natural language configuration accessible to everyone</li>
@@ -201,7 +201,7 @@ export default function Vision(): ReactNode {
               <h2 className={styles.cardTitle}>A Note from Our Founder</h2>
               <p className={styles.cardText}>
                 "Having worked extensively in telecommunications, I've witnessed firsthand the frustration of 
-                businesses trying to adapt rigid systems to their unique needs. Angany.ai represents our 
+                businesses trying to adapt rigid systems to their unique needs. Rayocom  Ai represents our 
                 commitment to flipping this paradigm—creating systems that adapt to you, not the other way around.
               </p>
               <p className={styles.cardText}>
@@ -209,7 +209,7 @@ export default function Vision(): ReactNode {
                 when AI becomes the foundation rather than an afterthought."
               </p>
               <div className={styles.founderSignature}>
-                <strong>— Sylvain Boily, Founder & CEO, Angany.ai</strong>
+                <strong>— Sylvain Boily, Founder & CEO, Rayocom  Ai</strong>
               </div>
             </div>
           </section>

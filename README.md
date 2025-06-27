@@ -1,6 +1,6 @@
-# Angany.ai Website
+# Rayocom Ai Website
 
-The official documentation and marketing website for Angany.ai - an AI-driven genetic telecom SaaS cloud-native platform.
+The official documentation and marketing website for Rayocom Ai - an AI-driven genetic telecom SaaS cloud-native platform.
 
 Built with [Docusaurus](https://docusaurus.io/) and featuring automatic OpenAPI documentation generation from our microservices.
 

@@ -33,11 +33,11 @@ export default function Header() {
         <Link to="/" className={styles.logo}>
           <img 
             src="/img/landing/favicon-logo.png" 
-            alt="Angany.ai" 
+            alt="Rayocom  Ai" 
             className={styles.logoImage}
           />
           <div className={styles.logoText}>
-            <span className={styles.logoBlue}>Angany</span>
+            <span className={styles.logoBlue}>Rayocom</span>
             <span className={styles.logoWhite}>.ai</span>
           </div>
         </Link>
@@ -65,7 +65,7 @@ export default function Header() {
         </nav>
         
         {/* Desktop CTA Button */}
-        <Link to="https://beta.angany.ai/sign-up" className={styles.ctaButton}>
+        <Link to="https://beta.Rayocom  Ai/sign-up" className={styles.ctaButton}>
           <span>Get started</span>
           <img src="/img/landing/header-button-arrow-icon.svg" alt="" className={styles.ctaIcon} />
         </Link>
@@ -130,7 +130,7 @@ export default function Header() {
           
           {/* Mobile CTA Button */}
           <Link 
-            to="https://beta.angany.ai/sign-up" 
+            to="https://beta.Rayocom  Ai/sign-up" 
             className={styles.mobileCtaButton}
             onClick={() => setIsMobileMenuOpen(false)}
           >

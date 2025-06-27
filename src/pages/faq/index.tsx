@@ -75,8 +75,8 @@ function BackgroundEffects() {
 }
 
 export default function FAQ(): ReactNode {
-  const pageTitle = "FAQ | Angany.ai";
-  const pageDescription = "Frequently Asked Questions about Angany.ai";
+  const pageTitle = "FAQ | Rayocom  Ai";
+  const pageDescription = "Frequently Asked Questions about Rayocom  Ai";
   
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -86,24 +86,24 @@ export default function FAQ(): ReactNode {
 
   const faqItems: FAQItem[] = [
     {
-      question: "What exactly is Angany.ai?",
+      question: "What exactly is Rayocom  Ai?",
       answer: (
         <>
           <p>
-            Angany.ai is an AI-powered telecommunications platform that places artificial intelligence 
+            Rayocom  Ai is an AI-powered telecommunications platform that places artificial intelligence 
             at the core of the system, rather than as a peripheral feature. Unlike traditional telecommunications 
-            systems that rely on predefined features, Angany.ai enables virtually unlimited functionality 
+            systems that rely on predefined features, Rayocom  Ai enables virtually unlimited functionality 
             through natural language configuration.
           </p>
         </>
       ),
     },
     {
-      question: "How is Angany.ai different from other AI-powered telecommunications systems?",
+      question: "How is Rayocom  Ai different from other AI-powered telecommunications systems?",
       answer: (
         <>
           <p>
-            While many systems incorporate AI as an add-on feature, Angany.ai is built with AI as the 
+            While many systems incorporate AI as an add-on feature, Rayocom  Ai is built with AI as the 
             foundation. This means that instead of selecting from predefined features, you can simply 
             explain what you want in natural language, and the AI will implement it. This creates a 
             level of flexibility and adaptability that traditional systems can't match.
@@ -112,11 +112,11 @@ export default function FAQ(): ReactNode {
       ),
     },
     {
-      question: "What kinds of businesses can benefit from Angany.ai?",
+      question: "What kinds of businesses can benefit from Rayocom  Ai?",
       answer: (
         <>
           <p>
-            Angany.ai is designed for businesses of all sizes that rely on telecommunications for 
+            Rayocom  Ai is designed for businesses of all sizes that rely on telecommunications for 
             customer service, appointment scheduling, internal communications, or any other voice-based 
             interaction. It's particularly valuable for businesses looking to automate routine calls 
             while maintaining a natural, human-like interaction.
@@ -125,12 +125,12 @@ export default function FAQ(): ReactNode {
       ),
     },
     {
-      question: "Do I need technical expertise to configure Angany.ai?",
+      question: "Do I need technical expertise to configure Rayocom  Ai?",
       answer: (
         <>
           <p>
             No technical expertise is required. Unlike traditional telecommunications systems that often 
-            require specialized knowledge to configure, Angany.ai allows you to set up complex workflows 
+            require specialized knowledge to configure, Rayocom  Ai allows you to set up complex workflows 
             through natural conversation with the AI. Simply explain what you want in plain language, and 
             the system will handle the technical implementation.
           </p>
@@ -138,11 +138,11 @@ export default function FAQ(): ReactNode {
       ),
     },
     {
-      question: "Can Angany.ai integrate with my existing systems?",
+      question: "Can Rayocom  Ai integrate with my existing systems?",
       answer: (
         <>
           <p>
-            Yes, Angany.ai is designed for seamless integration with your existing business systems 
+            Yes, Rayocom  Ai is designed for seamless integration with your existing business systems 
             through APIs, webhooks, and WebSockets. This allows the AI to access and manipulate data 
             across your organization, providing contextually appropriate responses during calls.
           </p>
@@ -154,7 +154,7 @@ export default function FAQ(): ReactNode {
       answer: (
         <>
           <p>
-            Security is foundational to Angany.ai. We offer:
+            Security is foundational to Rayocom  Ai. We offer:
           </p>
           <ul>
             <li>Data storage choice: You control where your data is stored</li>
@@ -167,28 +167,28 @@ export default function FAQ(): ReactNode {
       ),
     },
     {
-      question: "When will Angany.ai be available?",
+      question: "When will Rayocom  Ai be available?",
       answer: (
         <>
           <p>
-            Angany.ai is currently in the prototype phase. We are working toward an alpha release in the 
+            Rayocom  Ai is currently in the prototype phase. We are working toward an alpha release in the 
             coming months, followed by a beta expansion phase over the next 12-18 months. A full market 
             release is expected within 18-24 months.
           </p>
           <p>
-            You can <a href="https://beta.angany.ai/sign-up" target="_blank" rel="noopener noreferrer" className={styles.link}>join our waitlist</a> to be among the first to experience Angany.ai 
+            You can <a href="https://beta.Rayocom  Ai/sign-up" target="_blank" rel="noopener noreferrer" className={styles.link}>join our waitlist</a> to be among the first to experience Rayocom  Ai 
             and receive updates on our development progress.
           </p>
         </>
       ),
     },
     {
-      question: "How can I get involved with Angany.ai?",
+      question: "How can I get involved with Rayocom  Ai?",
       answer: (
         <>
           <p>
             We're actively seeking early testers, integration partners, and industry advisors to help shape 
-            the future of Angany.ai. If you're interested in being part of our journey, please 
+            the future of Rayocom  Ai. If you're interested in being part of our journey, please 
             <a href="/contact" className={styles.link}> contact us</a> to discuss possibilities for collaboration.
           </p>
         </>
@@ -222,7 +222,7 @@ export default function FAQ(): ReactNode {
             Frequently Asked <span className={styles.highlightText}>Questions</span>
           </h1>
           <p className={styles.pageSubtitle}>
-            Everything you need to know about Angany.ai
+            Everything you need to know about Rayocom  Ai
           </p>
         </div>
       </section>

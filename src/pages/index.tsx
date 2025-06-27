@@ -13,7 +13,7 @@ import { PricingSection } from '../components/landing/pricing';
 import styles from './index.module.css';
 
 export default function Home(): ReactNode {
-  const pageTitle = "Angany.ai | Programmable Voice AI for Developers";
+  const pageTitle = "Rayocom Ai | Programmable Voice AI for Developers";
   const pageDescription = "Build, deploy, and scale complex voice applications with natural language. Reimagining telecommunications with AI at its core.";
 
   return (
