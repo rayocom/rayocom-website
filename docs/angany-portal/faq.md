@@ -4,7 +4,7 @@ title: FAQ / Help Center
 
 # FAQ / Help Center
 
-Find answers to common questions and learn how to get help with the Rayocom Portal.
+Find answers to common questions and learn how to get help with the Angany Portal.
 
 ## Frequently Asked Questions
 

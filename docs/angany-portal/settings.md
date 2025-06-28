@@ -4,7 +4,7 @@ title: Settings
 
 # Settings
 
-The Settings section allows you to configure both global and user-specific preferences for your experience in the Rayocom Portal.
+The Settings section allows you to configure both global and user-specific preferences for your experience in the Angany Portal.
 
 ## Global Settings
 - Set organization-wide preferences and defaults.

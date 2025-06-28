@@ -4,7 +4,7 @@ title: Best Practices & Tips
 
 # Best Practices & Tips
 
-Follow these best practices to get the most out of the Rayocom Portal and ensure a secure, efficient experience.
+Follow these best practices to get the most out of the Angany Portal and ensure a secure, efficient experience.
 
 ## Recommended Workflows
 - Regularly review user roles and permissions.

@@ -1,12 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Rayocom Configuration API",
+    "title": "Angany Configuration API",
     "description": "Configuration management for organizations, resources, and telecom settings",
     "version": "1.0.0",
     "x-logo": {
       "url": "/img/logo/logo-without-text.png",
-      "altText": "Rayocom.ai Logo"
+      "altText": "Angany.ai Logo"
     }
   },
   "paths": {
@@ -5795,7 +5795,7 @@
             ],
             "title": "Context",
             "description": "Asterisk dialplan context for incoming calls",
-            "default": "stasis-Rayocom"
+            "default": "stasis-angany"
           },
           "codecs": {
             "anyOf": [
@@ -6425,7 +6425,7 @@
           "schema_id"
         ],
         "title": "UserInfo",
-        "description": "User information schema that matches the exact structure used in Rayocom-configuration.\n\nThis is returned by all authentication methods and used throughout the system."
+        "description": "User information schema that matches the exact structure used in angany-configuration.\n\nThis is returned by all authentication methods and used throughout the system."
       },
       "UserInfoName": {
         "properties": {
@@ -6478,7 +6478,7 @@
         },
         "type": "object",
         "title": "UserInfoTraits",
-        "description": "User traits from Kratos identity - matches Rayocom-configuration structure."
+        "description": "User traits from Kratos identity - matches angany-configuration structure."
       },
       "UserInvitation": {
         "properties": {

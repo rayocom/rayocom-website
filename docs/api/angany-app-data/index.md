@@ -1,34 +1,34 @@
 ---
-slug: /api/Rayocom-app-data
-title: "Rayocom App Data API"
+slug: /api/angany-app-data
+title: "Angany App Data API"
 sidebar_position: 3
 ---
 
-# Rayocom App Data API
+# Angany App Data API
 
-The Rayocom App Data API provides comprehensive access to call data, analytics, and performance metrics from your Rayocom platform. This API enables you to extract insights, monitor system performance, and analyze communication patterns.
+The Angany App Data API provides comprehensive access to call data, analytics, and performance metrics from your Angany platform. This API enables you to extract insights, monitor system performance, and analyze communication patterns.
 
 ## Quick Links
 
-- [API Documentation Overview](/docs/api/Rayocom-app-data/Rayocom-app-data)
+- [API Documentation Overview](/docs/api/angany-app-data/angany-app-data)
 
 ## Core Features
 
 ### Dashboard & Analytics
 Get comprehensive overview and summary data:
-- [Get Dashboard Summary](/docs/api/Rayocom-app-data/get-dashboard-summary-api-v-1-dashboard-summary-get)
-- [List Call Details](/docs/api/Rayocom-app-data/list-call-details-api-v-1-dashboard-call-details-get)
+- [Get Dashboard Summary](/docs/api/angany-app-data/get-dashboard-summary-api-v-1-dashboard-summary-get)
+- [List Call Details](/docs/api/angany-app-data/list-call-details-api-v-1-dashboard-call-details-get)
 
 ### Call Data Access
 Access detailed information about calls and their metadata:
-- [List Calls](/docs/api/Rayocom-app-data/list-calls-api-v-1-calls-call-ids-get)
+- [List Calls](/docs/api/angany-app-data/list-calls-api-v-1-calls-call-ids-get)
 
 ### Call-Specific Data
 For individual calls, access detailed logs and analysis:
-- [List Call Logs](/docs/api/Rayocom-app-data/list-logs-api-v-1-calls-call-id-logs-get)
-- [List Transcriptions](/docs/api/Rayocom-app-data/list-transcriptions-api-v-1-calls-call-id-transcriptions-get)
-- [List Performance Events](/docs/api/Rayocom-app-data/list-performance-events-api-v-1-calls-call-id-performance-events-get)
-- [Calculate Component Times](/docs/api/Rayocom-app-data/calculate-component-times-api-v-1-calls-call-id-performance-events-calculation-get)
+- [List Call Logs](/docs/api/angany-app-data/list-logs-api-v-1-calls-call-id-logs-get)
+- [List Transcriptions](/docs/api/angany-app-data/list-transcriptions-api-v-1-calls-call-id-transcriptions-get)
+- [List Performance Events](/docs/api/angany-app-data/list-performance-events-api-v-1-calls-call-id-performance-events-get)
+- [Calculate Component Times](/docs/api/angany-app-data/calculate-component-times-api-v-1-calls-call-id-performance-events-calculation-get)
 
 ### Performance Analytics
 Deep dive into system performance and component analysis:
@@ -59,7 +59,7 @@ Deep dive into system performance and component analysis:
 ## Getting Started
 
 1. **Authentication**: Use your API key or JWT token for authentication
-2. **Base URL**: `https://dev.Rayocom.ai`  
+2. **Base URL**: `https://dev.angany.ai`  
 3. **Format**: All requests and responses use JSON format
 4. **Filtering**: Most endpoints support filtering by date ranges, call types, and other parameters
 

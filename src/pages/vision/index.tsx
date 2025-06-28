@@ -152,7 +152,7 @@ export default function Vision(): ReactNode {
               </div>
 
               {/* Rayocom  Ai Approach */}
-              <div className={styles.RayocomCard}>
+              <div className={styles.anganyCard}>
                 <h3 className={styles.approachTitle}>Rayocom  Ai Approach</h3>
                 <ul className={styles.approachList}>
                   <li>AI-driven functionality that evolves with your needs</li>
@@ -209,7 +209,7 @@ export default function Vision(): ReactNode {
                 when AI becomes the foundation rather than an afterthought."
               </p>
               <div className={styles.founderSignature}>
-                <strong>— Mojtaba Karimi, Founder & CEO, Rayocom  Ai</strong>
+                <strong>— Sylvain Boily, Founder & CEO, Rayocom  Ai</strong>
               </div>
             </div>
           </section>

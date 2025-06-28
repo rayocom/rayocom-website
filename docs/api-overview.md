@@ -1,6 +1,6 @@
 # 📖 API Overview
 
-Welcome to the **Rayocom.ai API Documentation**! Our comprehensive API suite enables you to integrate AI-driven genetic telecom capabilities into your applications.
+Welcome to the **Angany.ai API Documentation**! Our comprehensive API suite enables you to integrate AI-driven genetic telecom capabilities into your applications.
 
 ## 🚀 What You Can Build
 
@@ -22,7 +22,7 @@ Manage API keys, authentication, and security for your applications.
 
 **Quick Start:**
 ```bash
-curl -X POST "https://auth.Rayocom.ai/api/v1/api-keys/" \
+curl -X POST "https://auth.angany.ai/api/v1/api-keys/" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "My App Key",
@@ -63,7 +63,7 @@ Access call data, transcriptions, logs, and performance analytics.
 ## 🛠️ Getting Started
 
 ### 1. **Authentication**
-All API requests require authentication using API keys. [Create your first API key →](/docs/api/Rayocom-auth/)
+All API requests require authentication using API keys. [Create your first API key →](/docs/api/angany-auth/)
 
 ### 2. **Choose Your Integration**
 - **REST API**: Direct HTTP requests for maximum flexibility
@@ -76,9 +76,9 @@ Use our Postman collection or interactive API explorer to test endpoints.
 ## 📋 API Standards
 
 ### Base URLs
-- **Production**: `https://api.Rayocom.ai`
-- **Staging**: `https://staging-api.Rayocom.ai`
-- **Development**: `https://dev-api.Rayocom.ai`
+- **Production**: `https://api.angany.ai`
+- **Staging**: `https://staging-api.angany.ai`
+- **Development**: `https://dev-api.angany.ai`
 
 ### Request Format
 - **Content-Type**: `application/json`
@@ -115,7 +115,7 @@ Errors are returned with appropriate HTTP status codes and detailed messages:
 
 ## 🔗 Quick Links
 
-- [🔐 Authentication Guide](/docs/api/Rayocom-auth/) - Set up API access
+- [🔐 Authentication Guide](/docs/api/angany-auth/) - Set up API access
 - [⚡ Quick Start Guide](/docs/guides/quick-start) - Build your first integration
 - [📮 Postman Collection](/docs/sdk/postman) - Test APIs interactively
 - [💻 SDKs & Tools](/docs/sdk/javascript) - Development tools and libraries

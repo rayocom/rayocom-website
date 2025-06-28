@@ -2,9 +2,9 @@
 title: Introduction
 ---
 
-# Introduction to Rayocom Portal
+# Introduction to Angany Portal
 
-Rayocom Portal is a SaaS web application that provides a unified interface for managing your AI-driven telecommunications platform. It enables organizations to manage users, telephony resources, AI components, conversations, integrations, billing, and more—all from a single, secure portal.
+Angany Portal is a SaaS web application that provides a unified interface for managing your AI-driven telecommunications platform. It enables organizations to manage users, telephony resources, AI components, conversations, integrations, billing, and more—all from a single, secure portal.
 
 ## Key Use Cases
 - Centralized management of telecom and AI resources

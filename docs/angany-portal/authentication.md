@@ -4,7 +4,7 @@ title: Authentication & User Management
 
 # Authentication & User Management
 
-The Rayocom Portal uses secure authentication powered by Ory Kratos. User management features allow administrators to control access, assign roles, and manage user accounts.
+The Angany Portal uses secure authentication powered by Ory Kratos. User management features allow administrators to control access, assign roles, and manage user accounts.
 
 ## Logging In
 - Access the portal via your organization's provided URL.

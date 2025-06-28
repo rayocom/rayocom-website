@@ -149,7 +149,7 @@
   box-shadow: 0 10px 30px rgba(239, 68, 68, 0.1);
 }
 
-.RayocomCard {
+.anganyCard {
   background: rgba(28, 161, 242, 0.08);
   border: 1px solid rgba(28, 161, 242, 0.3);
   border-radius: 20px;
@@ -158,7 +158,7 @@
   transition: all 0.3s ease;
 }
 
-.RayocomCard:hover {
+.anganyCard:hover {
   transform: translateY(-5px);
   border-color: rgba(28, 161, 242, 0.5);
   box-shadow: 0 10px 30px rgba(28, 161, 242, 0.15);
@@ -175,7 +175,7 @@
   color: #EF4444;
 }
 
-.RayocomCard .approachTitle {
+.anganyCard .approachTitle {
   color: #1CA1F2;
 }
 
@@ -238,7 +238,7 @@
 
   .card,
   .traditionalCard,
-  .RayocomCard {
+  .anganyCard {
     padding: 1.5rem;
     margin-bottom: 1.5rem;
   }
